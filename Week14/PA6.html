@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Classes</h1>
+<p>Student Information in Student class:</p>
+
+
+<p id="demo"></p>
+
+<script>
+
+class Student {
+  constructor(first, last, id) {
+    this.first = first;
+    this.last = last;
+    this.id = id;
+  }
+}
+
+var studentInfo = new Student("Isaiah", "Lugo", 20097);
+
+document.getElementById("demo").innerHTML = studentInfo.first + "<br>" + studentInfo.last + "<br>" + studentInfo.id;
+
+</script>
+
+</body>
+</html>

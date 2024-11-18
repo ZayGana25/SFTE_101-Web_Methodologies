@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>User-defined objects</title>     
+      <script>
+         var book = new Object();   // Create the object
+         book.subject = "JavaScript Programming";     // Assign properties to the object
+         book.author  = "Bushnell";
+
+         var course = new Object(); 
+         course.code = "SFTE 101"
+         course.name = "Web Methodologies"
+
+         var student = new Object(); 
+         student.id = "20097"
+         student.name = "Isaiah Lugo"
+
+         var department = new Object(); 
+         department.name = "x"
+         department.location = "xx"
+
+
+      </script>      
+   </head>
+   
+   <body>  
+      <script>
+         document.write("Book name is : " + book.subject + "<br>");
+         document.write("Book author is : " + book.author + "<br>");
+
+         document.write("Student id is : " + student.id + "<br>");
+         document.write("Student name is : " + student.name + "<br>");
+
+         document.write("Department name is : " + department.name + "<br>");
+         document.write("Department location is : " + department.location + "<br>");
+      </script>   
+   </body>
+</html>

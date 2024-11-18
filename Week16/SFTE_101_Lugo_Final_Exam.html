@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<title>SFTE 101 Final Exam - Lugo</title>
+
+<h1>Final Exam - SFTE 101</h1>
+
+<p><b>JavaScript window object w/ Various Properties from current window:</b></p>
+
+<p id="demo"></p>
+
+    <script>
+
+        let name = window.name
+
+        document.getElementById("demo").innerHTML =
+        "Browser inner window width: " + window.innerWidth + "px<br>" +
+        "Browser inner window height: " + window.innerHeight + "px<br>" +
+        "Browser closed?: " + window.closed + "<br>" + 
+        "Window Location: " + window.location + "<br>";
+
+    </script>
+
+<p><b>JavaScript Arithmetic operator in do...while loop example:</b></p>
+
+<p id="demo2"></p>
+
+    <script>
+        let text = "";
+        let i = 0;
+        do {
+            text += i + "<br>";
+            i++; //increment operator, adds by 1 until loop is finished.
+        }
+        while (i < 10); //does not include the integer 10 as it begins with 0 and goes through 9
+            document.getElementById("demo2").innerHTML = text;
+    </script>
+
+<p><b>JavaScript Class with constructor, etc:</b></p> 
+
+<p id="demo3"></p>
+
+    <script>
+        
+        class movie {
+            constructor(title, year, genre){
+                this.title = title;
+                this.year = year;
+                this.genre = genre;
+            }
+        }
+
+        var movieInfo = new movie("Step Brothers", 2008, "Comedy");
+
+        document.getElementById("demo3").innerHTML = "<u>Movie title:</u> " + movieInfo.title + "<br>" + "<u>Movie release:</u> " + movieInfo.year + "<br>" + "<u>Movie genre:</u> " + movieInfo.genre;
+
+    </script>
+
+</body>
+</html>

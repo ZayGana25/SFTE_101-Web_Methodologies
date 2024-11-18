@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+
+    <!--Title - Element-->  
+    <title>SFTE 101 Midterm Exam - Lugo</title>
+
+    <!--meta tag - Element--> 
+    <meta name="author" content="Lugo">
+    <meta name="keywords" content="Midterm, Exam, Attributes, Elements">
+
+   <!-- CSS styling-->
+   <style>
+
+    .myDiv {
+        border: 5px outset red;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 40px;
+        margin-left: 40px;
+        background-color: navy;
+        color: white;    
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(54, 152, 121);
+        color: white;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(54, 152, 121);
+        color: white;
+    }
+
+    .self-description {
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+    }
+    .self-description > h2, .intro{
+        margin: 10px;
+        padding: 5px;
+    }
+    .intro {
+        background: white;
+    }
+    .intro > p {
+        margin: 4px;
+        font-size: 90%;
+    }
+   </style>
+
+   </head>	
+   <body>
+      <!--title Attribute--> 
+      <h1 title="Coding is fun!"; style="font-family:Brush Script MT;"><center>SFTE 101 Midterm Exam - Lugo</center></h1>
+
+      <!--Body element: hr--> 
+      <hr/>
+
+      <!--href attribute(links destination) and a element(hyperlink); nav element-->
+      <nav>
+        <a href="https://www.bushnell.edu">Bushnell University Homepage</a> |
+        <a href="https://bushnellbeacons.com/">Beacons Athletic</a> |
+        <a href="https://beaconlearning.bushnell.edu/login/index.php">BeaconLearning</a>
+      </nav>
+      
+
+      <hr/>
+      <!--Body element(s): p, br   &    section tag--> 
+      <section>
+      <h2 style="font-family:Courier;">This is First Paragraph</h2>
+      <p>
+      The p element represents a paragraph space. <br />
+      Within this space we are able to write a description<br />
+      with multiple sentences if needed due to is paragraph<br />
+      formatting of the element.<br />
+      </p>
+      </section>
+
+      <hr/>
+
+      <!--Body element(s): br; article Element; header element; footer element--> 
+      <article class="self-description">
+        <header>
+            <h2 style="font-family:Trebuchet MS;">Isaiah Lugo</h2>
+            <p> One of four students in SFTE 101</p>
+        </header>
+        <article class="intro">
+            <p>
+                Isaiah Lugo attends <i>Bushnell University</i> and is at a Junior 
+                academic standing. His declared major is<br /><u>Computer Science: Software Engineering</u>.
+                He was born and raised in Eugene, OR, however after<br /> graduating high school he went 
+                to College in Washington for a few years and played baseball before<br /> getting injured and
+                switching his degree to CompSci. 
+            </p>
+        </article>
+        <footer>
+            <p>Contact by email: Isaiah Lugo</p>
+            <a href="mailto:ilugo@buhsnell.edu">Click Here</a>
+        </footer>
+      </article>
+      
+      <hr/>
+
+      <!--Body element: div-->
+      <div class="myDiv">
+        <h3>This is a heading in a div element</h3>
+        <p>This is some text in a div element.</p>
+      </div>
+
+      <hr/>
+
+      <!--This contains an unordered list as well as an example of using an image as a figure in the html file. Here there is also an aside element used.-->
+      <h4 style="font-size:90%">Unordered List of Games Played Recently</h4>
+      <ul style="font-family:courier">
+        <li>Call of Duty</li>
+        <li>Apex Legends</li>
+        <li>CS:GO</li>
+      </ul>
+
+      <h5 style="font-size:90%; font-family:Times New Roman;">Games in Ordered List based on Likeness</h5>
+      <ol style="font-family:courier;">
+        <li>Call of Duty</li>
+        <li>CS:GO</li>
+        <li>Apex Legends</li>
+      </ol>
+
+      <p>All of which I use the gamertag "<b>McLOVIN</b>", inspired by the movie <i>Superbad</I>.<br />Below is a photo of the character in that movie!</p>
+
+      <!--aside element used-->
+      <aside>
+        <h6 style="font-size:200%; font-family:Brush Script MT">Superbad</h6>
+        <p>
+            Super bad is a movie about two inseparable best friends navigate the last weeks of high school and are invited to a<br /> gigantic house party. 
+            Together with their nerdy friend, they spend a long day trying to score enough alcohol to supply<br /> the party and inebriate two girls in 
+            order to kick-start their sex lives before they go off to college. Their quest is<br /> complicated after one of them falls in with two inept 
+            cops who are determined to show him a good time.</p>
+      </aside>
+
+      <!--figure/image implemented using image search-->
+      <img src="https://steamuserimages-a.akamaihd.net/ugc/110733697267580773/D1D4F12058816D947D4033C3492089C9ECE22D4F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="I am McLOVIN - Superbad GIF">
+
+
+   </body>	
+</html>
